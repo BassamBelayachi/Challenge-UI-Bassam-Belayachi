@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varta&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla  &display=swap');
+
+html, body{
+    background-color:#F3EEE8;
+    margin:0px;
+    overflow-x: hidden;
+
+}
+*{
+    box-sizing:border-box;
+}
+
+#antic{
+    display:inline-flex;
+    width:80vw;
+    margin-top:2%;
+    margin-left:10%
+}
+#antic h1{
+    font-family: "Merriweather", sans-serif;
+    color:#A06056;
+    font-size:35px;
+}
+.menu{
+    width:35%;
+    font-family:"Varta", sans-serif;
+    font-size:20px;
+    display:inline-flex;
+    flex-wrap:wrap;
+    margin-top:35px;
+    padding-right:0px;
+    margin-left:3%;
+}
+#mobileMenu{
+    display:none;
+}
+.anticItem{
+    margin: 0 1.2vw;
+}
+
+#contact{
+    position:absolute;
+    left:95%;
+    z-index:2;
+}
+#contact:hover{
+    cursor:pointer;
+}
+
+.homeDesign{
+    margin-left:10%;
+    margin-top:5%;
+    margin-bottom:20vh;
+}
+
+.homeDesign h1{
+    font-family:"Varta", sans-serif;
+    font-size:25px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #A06056;
+    margin-bottom:10;
+}
+.homeDesign h2{
+    font-family:"Merriweather", sans-serif;
+    color: #A06056;
+    font-weight:lighter;
+    font-size: 70px;
+    line-height: 100px;
+    width:27%;
+    margin-bottom:10vh;
+}
+.homeDesign h3{
+    font-family:"Varta", sans-serif;
+    color: rgba(112, 100, 88, 0.9);
+    font-weight:300;
+    font-size:30px;
+    line-height: 31px;
+    width:30%;
+    margin-bottom:5vh;
+}
+#lightsIMG{
+    position: absolute;
+    right: 0%;
+    top:0%;
+    z-index:1;
+    object-fit: cover;
+    height:100vh;
+    width:50vw;
+}
+#lightsIMG img{
+    height:100vh;
+    width:50vw;
+}
+
+#down{
+    transition:1;
+}
+#down:hover{
+    cursor:pointer;
+}
+
+#findYourRoom{
+    margin-left: 10%;
+    margin-right:10%;
+}
+#findYourRoom h1{
+    color: #706458;
+    font-family:"Merriweather", sans-serif;
+    font-weight: 1;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+#findYourRoomInline{
+    display:inline-flex;
+}
+
+#findYourRoomInline h2{
+    width:20%;
+    color: #706458;
+    font-family:"Varta", sans-serif;
+    font-weight: 1;
+    font-size: 20px;
+    line-height: 40px;
+    width:180px;
+    margin-bottom:30%;
+}
+
+#bedroom{
+    display:Inline-flex;
+}
+
+#bedroomIMG{
+    z-index:1;
+    margin-left:20px;
+    position: absolute;
+}
+#bedroom img{
+    width: 400px;
+    height: 600px;
+}
+#bedroom h1{
+    color: #A06056;
+    position:absolute;
+    z-index:2;
+    margin-top:300px;
+    margin-left:300px;
+}
+#bedroom h2{
+    margin-left:450px;
+    color: rgba(112, 100, 88, 0.9);
+    font-family: "Varta", sans-serif;
+    font-size: 23px;
+    line-height: 25px;
+}
+#livingRoom{
+    display:inline-flex;
+    margin-left:100px;
+}
+#livingRoomIMG{
+    position: absolute;
+    z-index:1;
+    margin-left:-100px;
+}
+#livingRoom img{
+    width: 400px;
+    height: 600px;
+}
+
+#livingRoom h1{
+    color: #A06056;
+    position:absolute;
+    z-index:2;
+    margin-top:300px;
+    margin-left:250px;
+    width:10%;
+}
+#livingRoom h2{
+    margin-left:330px;
+    color: rgba(112, 100, 88, 0.9);
+    font-family: "Varta", sans-serif;
+    font-size: 23px;
+    line-height: 25px
+}
+
+#findYourRoomPages{
+    position:relative;
+    display:inline-flex;
+    margin-top:10px;
+    margin-left:10%;
+}
+#findYourRoomPages h1{
+    font-size: 20px;
+    line-height: 25px;
+    font-family:"varta", sans-serif;
+    color: rgba(112, 100, 88, 0.9);
+}
+#findYourRoomPages h2{
+    font-family:"karla", sans-serif;
+    color:#A06056;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 2px;
+    margin-left:10vw;
+}  
+#findYourRoomPages h3{
+    font-family:"karla", sans-serif;
+    color:#A06056;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top:0%;
+    margin-left:5vw;
+    font-weight:lighter;
+    margin-right:300px;
+}
+
+#weStay{
+    display:inline-flex;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#titleAndFind {
+    margin-left:10%;
+}
+#titleAndFind h1{
+    font-family:"Merriweather", sans-serif;
+    font-weight:lighter;
+    font-size:60px;
+    letter-spacing: 2px;
+    color: #706458;
+    width: 40%;
+}
+#titleAndFind h2{
+    font-family:"karla", sans-serif;
+    font-weight:lighter;
+    font-size:20px;
+    letter-spacing: 2px;
+    color: #A06056;
+}
+
+#weStayGrid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(100px, 2);
+}
+.weStayGridTitle{
+    font-family:"varta", sans-serif;
+    font-weight:600;
+    font-size:25px;
+    letter-spacing: 2px;
+    color: #A06056;
+}
+.weStayGridText{
+    font-family:"varta", sans-serif;
+    width:400px;
+    font-weight: 300;
+    color: rgba(112, 100, 88, 0.9);
+}
+
+
+#beAware{
+    background-color:white;
+    padding-left:10%;
+    width:100vw;
+}
+#beAwareTitle{
+    font-family: "Merriweather", sans-serif;
+    font-size:35px;
+    line-height:40px;
+    color: #121212;
+    font-weight:lighter;
+    padding-top:80px;
+}
+#stayInformed{
+    display:inline-flex;
+    margin-bottom:15px;
+    margin-top:10px;
+}
+#stayInformed h1{
+    font-family:"varta",sans-serif;
+    font-size:18px;
+    color:rgba(112, 100, 88, 0.9);
+    font-weight:lighter;
+    padding-right:30vw;
+}
+#mailBox{
+    width: 296.1px;
+    height: 50px;
+    right: 159.11px;
+    top: calc(50% - 50px/2);
+    background: rgba(243, 238, 232, 0.3);
+    border-radius: 1px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+#mail{
+    position: absolute;
+    padding-top:14px;
+    padding-left:11px;
+    font-family: "Varta",sans-serif;
+    color: rgba(112, 100, 88, 0.9);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+#subscribeButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 30px;
+    position: static;
+    width: 143.11px;
+    height: 50px;
+    right: 0px;
+    top: calc(50% - 50px/2);
+    background: #534B42;
+    border-radius: 1px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    font-family:"karla",sans-serif;
+    color:white;
+}
+
+
+#learnMore{
+    font-family:"karla",sans-serif;
+    font-size:17px;
+    line-height:25px;
+    letter-spacing:2px;
+    color: #A06056;
+    font-weight:bold;
+    margin-bottom:100px;
+}
+.beAwareIMG{
+    display:grid;
+    grid-auto-flow: column;
+    grid-column-gap: 4%;
+    position: absolute;
+    margin-bottom:10px;
+}
+.beAwareIMG img{
+    width: 550px;
+    height: 700px;
+}
+
+#beAwareInspirations{
+    margin-top:720px;
+    display:inline-flex;
+}
+#beAwareInspirations h1{
+    font-family: "Merriweather", sans-serif;
+    font-weight:lighter;
+    font-size:45px;
+}
+#beAwareInspirations h2{
+    margin-left:50px;
+    margin-right:30px;
+    width:600px;
+    font-family: "Varta",sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(112, 100, 88, 0.9);
+    opacity: 0.8;
+}
+#beAwareArrows{
+    margin-left:10vw;
+}
+#beAwarePages{
+    margin-top:10px;
+    margin-left:50px;
+    margin-bottom:50px;
+}
+#beAwarePages h1{
+    font-family: "Varta", sans-serif;
+    font-size:20px;
+    line-height:25px;
+    color: rgba(112, 100, 88, 0.9);
+    margin-left:10px;
+}
+
+footer{
+    padding-top:50px;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:50px;
+}
+
+#footerTitle{
+    font-family: "Merriweather", sans-serif;
+    font-size: 34px;
+    color: #534B42;
+    letter-spacing: 2px;
+    line-height: 25px;
+
+}
+#footerFirstLine{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(100px, 2);
+}
+.footerTitles{
+    font-family: "Varta",sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #534B42;
+
+}
+.footerDesc{
+    color: #706458;
+    font-family: "Varta", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+#weRespect{
+    margin-right:100px;
+}
+#weRespect h1{
+    font-family: "Varta",sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #534B42;
+}
+#weRespect h2{
+    color: #706458;
+    font-family: "Varta", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+#weRespect h3{
+    font-family: "Karla", sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    color: #A06056;
+    letter-spacing: 2px;
+}
+#socialMedias{
+    margin-top:10px;
+    display:grid;
+    grid-template-columns: repeat(4, 0.08fr);
+    grid-gap: 1px;
+    margin-left:35%
+}
+#socialMedias img{
+    width:50px;
+    
+}
+
+#copyright{
+    position:absolute;
+    font-family: "Varta", sans-serif;
+    font-style:18px;
+    line-height:35px;
+    color: rgba(112, 100, 88, 0.7);
+    width:150px;
+}
+#footerLastLine{
+    display:inline-flex;
+    column-gap: 30px;
+    position:absolute;
+    font-family: "Varta", sans-serif;
+    color: rgba(112, 100, 88, 0.7);
+    font-style:18px;
+    line-height:35px;
+    right:10%;
+}
+
+@media screen and (max-width:500px){
+    #antic{
+        display:inline-flex;
+        width:80vw;
+        margin-top:2%;
+        margin-left:10%;
+        z-index:2;
+    }
+    #antic h1{
+        margin-top:10%;
+        font-family: "Merriweather", sans-serif;
+        color:#ffffff;
+        font-size:35px;
+        z-index:2;
+    }
+    .anticItem{
+        display:none;
+    }
+    #mobileMenu{
+        display:block;
+        position:absolute;
+        z-index:2;
+        margin-right:10px;
+        margin-top:3%;
+        right:10px;
+    }
+    #contact{
+        display:none;
+    }
+
+    #lightsIMG{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        object-fit:cover;
+        width: 100vw;
+        height: 100vh;
+    }
+    #lightsIMG img{
+        height:100vw;
+        width:100vh;
+    }
+    #homePic{
+        margin-bottom:50%;
+    }
+    .homeDesign{
+        position:static;
+        margin:0px;
+        text-align:center;
+    }
+    .homeDesign h1{
+        margin-top:10%;
+        text-align:center;
+        position:static;
+        color:white;
+        z-index:2;
+        
+    }
+    .homeDesign h2{
+        margin-top:80px;
+        text-align:center;
+        position:relative;
+        color:white;
+        z-index:2;
+        font-size:45px;
+        line-height:70px;
+        width:100%;
+        text-shadow: 1px 1px 2px black;
+    }
+    .homeDesign h3{
+        position:relative;
+        color:white;
+        font-size:25px;
+        line-height:50px;
+        z-index:2;
+        text-align:center;
+        margin-top:-45px;
+        font-weight:lighter;
+        width:100%;
+        text-shadow: 1px 1px 2px black;
+    }
+    #down{
+        display:block;
+        z-index:2;
+        position:absolute;
+        filter:brightness(100);
+        text-align:center;
+        width:100%;
+        height:8%;
+    }
+    #findYourRoom{
+        position:static;
+    }
+    #findYourRoom h1{
+        font-size:35px;
+        text-align:center;
+        padding-top:50%;
+    }
+    #findYourRoomInline{
+        display:block;
+    }
+    #findYourRoomInline h2{
+        text-align:center;
+        width:80%;
+        margin-left:10%;
+    }
+    #findYourRoomPages h3{
+        margin:0px;
+    }
+    #bedroom{
+        width:50%;
+        margin-left:0;
+    }
+    #bedroom h1{
+        padding-top:0%;
+        margin-top:20%;
+        margin-left:25%;
+    }
+    #bedroom h2{
+        margin-left:170px;
+        padding-left:10px;
+        font-size:20px;
+        width:auto;
+    }
+    #bedroom img{
+        height:220px;
+        width:150px;
+    }
+    #livingRoom{
+        display:none;
+    }
+    .weStayGridText{
+        width:80%;
+    }
+    #findYourRoomPages{
+        margin-left:0%;
+        margin-top:30%;
+        width:80%;
+    }
+    #findYourRoomPages h1{
+        left:80%;
+        position:absolute;
+        opacity:0.5;
+    }
+    #weStay{
+        display:block;
+    }
+    #titleAndFind h1{
+        font-size:34px;
+        width:80%;
+        margin-left:0%;
+        display:block;
+    }
+    #titleAndFind h2{
+        margin-top:10%;
+    }
+    #weStayGrid{
+        display:block;
+        margin-top:15%;
+        margin-left:10%;
+    }
+    #stayInformed{
+        display:block;
+        width:80%;
+        margin-right:0%;
+        margin-top:20%;
+    }
+    #stayInformed h1{
+        width:100%;
+        padding:0;
+        font-size:20px;
+    }
+    #mailBox{
+        width:120%;
+        margin-left:0%;
+        margin-right:0%;
+    }
+    #subscribeButton{
+        text-align:center;
+        margin-left:30%;
+    }
+    #subscribeButton{
+        margin-top:10px;
+        text-align:center;
+    }
+    #learnMore{
+        position:static;
+        margin-top:10%;
+    }
+    .beAwareIMG img{
+        width:45%;
+        height:40%;
+    }
+    .beAwareIMG{
+        display:table-column;
+        margin-top:300px;
+    }
+    #beAware{
+        width:100vw;
+        padding-left:10%;
+        padding-right:10%;
+    }
+    #beAwareInspirations{
+        margin-top:0%;
+        padding-bottom:140%;
+        display:block;
+    }
+    #beAwareInspirations h2{
+        width:80%;
+        margin-left:0px;
+        height:30%;
+
+    }
+    #beAwarePages{
+        display:none;
+    }
+    #footerFirstLine{
+        display:block;
+    }
+    #footerTitle{
+        text-align:center;
+    }
+    .footerTitles{
+        margin-top:8%;
+    }
+    #weRespect{
+        margin-top:10%;
+    }
+    #socialMedias{
+        width:80%;
+        margin:20%;
+        margin-left:5%;
+        column-gap:10%;
+
+    }
+    #copyright{
+        padding-top:20%;
+        padding-bottom:10%;
+    }
+}
